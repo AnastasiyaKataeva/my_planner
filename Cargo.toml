@@ -1,0 +1,12 @@
+[package]
+name = "my-planner"
+version = "0.1.0"
+edition = "2021"
+
+[lints.rust]
+
+[lints.clippy]
+redundant_closure = "allow"
+default_constructed_unit_structs = "allow"
+
+[dependencies]
